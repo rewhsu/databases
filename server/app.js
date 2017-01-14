@@ -10,6 +10,7 @@ var router = require('./routes.js');
 
 var app = express();
 module.exports.app = app;
+db.connect();
 
 // Set what we are listening on.
 app.set('port', 3000);
